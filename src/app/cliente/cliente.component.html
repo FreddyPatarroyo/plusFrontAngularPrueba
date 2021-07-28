@@ -1,0 +1,19 @@
+<div class="card border-info mb-3 mt-5">
+    <div class="card-header text-info">Datos</div>
+    <div class="card-body text-info">
+      <h5 class="card-title">Tabla Datos</h5>
+
+      <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+                <th class="text-center">Nombre Completo</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let cliente of clientes"> 
+                  <td>{{cliente}}</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+</div>
